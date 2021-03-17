@@ -14,7 +14,7 @@ const ControlPanel = () => {
   const [confidenceValue, setConfidenceValue] = useState<number>(0);
   const [usaFires, setUsaFires] = useState<string>('');
   const [isChecked, setIsChecked] = useState<boolean>(true);
-  // REDUX
+
   const mapLoaded = useSelector(mapLoadedSelector);
   const layerId = useSelector(layerIdSelector);
 
